@@ -1,0 +1,28 @@
+{
+  "name": "poc-study-tool",
+  "version": "1.0.0",
+  "description": "A modern flashcard application using spaced repetition algorithms (SM-2 and SM-15) to optimize learning and retention.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky",
+    "lint:frontend": "cd frontend && npm run lint",
+    "lint:backend": "cd backend && npm run lint",
+    "lint:all": "npm run lint:frontend && npm run lint:backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adityaChincholkarPinnacle/poc-study-tool.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/adityaChincholkarPinnacle/poc-study-tool/issues"
+  },
+  "homepage": "https://github.com/adityaChincholkarPinnacle/poc-study-tool#readme",
+  "devDependencies": {
+    "husky": "^9.1.7"
+  }
+}
